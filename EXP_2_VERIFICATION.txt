@@ -1,0 +1,23 @@
+--- Objective 2: Sideband Frequency Verification ---
+Carrier Frequency (fc) : 5000 Hz
+Message Frequency (fm) : 500 Hz
+Theoretical LSB (fc-fm): 4500 Hz
+Theoretical USB (fc+fm): 5500 Hz
+>> 
+--- Objective 3: Power Distribution Calculations ---
+Modulation Index (mu)        : 0.20
+Carrier Power (Pc)           : 12.5000 W
+USB Power                    : 0.1250 W
+LSB Power                    : 0.1250 W
+Total Sideband Power (Ptsb)  : 0.2500 W
+Total Transmitted Power (Pt) : 12.7500 W
+Transmission Efficiency (eta): 1.96 %
+>> 
+--- Objective 4: Variation of mu and Transmission Efficiency ---
+ mu   |   Pc (W)   |  Ptsb (W)  |   Pt (W)   | Efficiency (%)
+------------------------------------------------------------
+0.20  |   12.5000  |    0.2500  |   12.7500  |      1.96 %
+0.50  |   12.5000  |    1.5625  |   14.0625  |     11.11 %
+0.80  |   12.5000  |    4.0000  |   16.5000  |     24.24 %
+1.00  |   12.5000  |    6.2500  |   18.7500  |     33.33 %
+>> 
