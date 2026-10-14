@@ -1,0 +1,8 @@
+--- Objective 2 Verification ---
+RF Carrier Frequency (fc) : 10000 Hz
+LO Frequency (fLO)        : 14550 Hz
+Standard IF (|fLO - fc|)  : 4550 Hz
+Baseband Message (fm)     : 500 Hz
+Message recovery through IF stage envelope detection completed successfully.
+
+
