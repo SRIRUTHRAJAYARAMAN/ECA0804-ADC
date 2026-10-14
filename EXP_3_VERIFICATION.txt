@@ -1,0 +1,4 @@
+--- Objective 2 Verification ---
+Message Frequency : 500 Hz
+Carrier Frequency : 5000 Hz
+Coherent demodulation and LPF reconstruction completed successfully.
