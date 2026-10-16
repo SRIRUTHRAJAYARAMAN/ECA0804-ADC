@@ -1,0 +1,29 @@
+--- Objective 2: Frequency Deviation Verification ---
+Frequency Sensitivity (kf)     : 250 Hz/V
+Message Amplitude (Am)         : 2 V
+Calculated Peak Deviation (Af) : 500.00 Hz
+Maximum Instantaneous Freq     : 10500.00 Hz
+Minimum Instantaneous Freq     : 9500.00 Hz
+Verified Peak Deviation        : 500.00 Hz
+Status: Frequency Deviation Verification Successful
+>> 
+--- Objective 3: Modulation Index Verification ---
+Carrier Frequency (fc)       = 10000 Hz
+Message Frequency (fm)       = 500 Hz
+Message Amplitude (Am)       = 2 V
+Frequency Sensitivity (kf)   = 250 Hz/V
+Frequency Deviation (Delta f)= 500.00 Hz
+Modulation Index (Beta)      = 1.00
+Verified Modulation Index    = 1.00
+
+Verification Successful
+>> 
+--- Objective 4: Invariance of Delta_f and Inverse Scaling of Beta ---
+  fm (Hz)  |  Delta_f (Hz)  |   Beta (m_f)   
+--------------------------------------------
+    100    |     500.00     |       5.00     
+    250    |     500.00     |       2.00     
+    500    |     500.00     |       1.00     
+   1000    |     500.00     |       0.50     
+   2000    |     500.00     |       0.25     
+>> 
