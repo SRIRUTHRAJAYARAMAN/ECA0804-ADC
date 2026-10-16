@@ -1,0 +1,11 @@
+--- Objective 1: FM Analysis ---
+Carrier Frequency (fc)        : 50 Hz
+Message Frequency (fm)        : 5 Hz
+Modulation Index (Beta)       : 5
+Frequency Deviation (Delta f) : 25 Hz
+>> 
+--- Objective 2: PM Analysis & Comparison ---
+Phase Sensitivity (kp)        : 5 rad/V
+Maximum Phase Deviation       : 5 radians
+Comparison: FM instantaneous phase integrates m(t), while PM tracks m(t) directly.
+>> 
