@@ -1,0 +1,31 @@
+--- Objective 1: PM Generation Parameters ---
+Carrier Frequency (fc)  : 1000 Hz
+Message Frequency (fm)  : 100 Hz
+Carrier Amplitude (Ac)  : 5 V
+Message Amplitude (Am)  : 1 V
+Phase Sensitivity (kp)  : 1.5708 rad/V
+>> 
+--- Objective 2 Verification ---
+Sampling Frequency (fs) : 20000 Hz
+FFT Length (N)          : 801 points
+Frequency spectrum centered and scaled successfully.
+>> 
+--- Objective 3 Verification ---
+Max Spectral Density Peak : 0.080052 W/Hz
+Power Spectral Density computation and plotting completed.
+>> 
+--- Objective 4: Carrier and Sideband Frequencies ---
+Carrier Frequency (fc)       : 1000 Hz
+Message Spacing (fm)         : 100 Hz
+--------------------------------------------------
+ Component    | Frequency (Hz) | Formula          
+--------------------------------------------------
+ Carrier      |     1000       | fc               
+ USB 1        |     1100       | fc + 1*fm       
+ LSB 1        |      900       | fc - 1*fm       
+ USB 2        |     1200       | fc + 2*fm       
+ LSB 2        |      800       | fc - 2*fm       
+ USB 3        |     1300       | fc + 3*fm       
+ LSB 3        |      700       | fc - 3*fm       
+--------------------------------------------------
+>> 
